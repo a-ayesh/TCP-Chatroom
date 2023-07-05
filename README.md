@@ -1,11 +1,13 @@
 # TCP Chatroom
 
+Computer Networks Project: "Create an environment using remote client/server architecture and multi-threading".
+
 This is a Python implementation of a TCP chatroom using sockets. It allows multiple users to connect to a server and chat with each other in real time. Some of the features include:
 
-- Admin mode: only users with admin privileges can kick or ban other users from the chatroom.
-- Kick functionality: admins can kick users from the chatroom.
-- Ban functionality: admins can ban users from the chatroom, preventing them from reconnecting.
-- Private messaging: users can send private messages to each other.
+- **Admin mode**: only users with admin privileges can kick or ban other users from the chatroom.
+- **Kick functionality**: admins can kick users from the chatroom.
+- **Ban functionality**: admins can ban users from the chatroom, preventing them from reconnecting.
+- **Private messaging**: users can send private messages to each other.
 
 ## Getting started
 
@@ -38,7 +40,3 @@ To use the admin mode, you need to know the admin password (which is hardcoded i
 ### Private messaging
 
 To send a private message to a user, use the `/private <username> <message>` command. The message will only be visible to the specified user.
-
-## LICENSE:
-
-I created this super cool application as an end semester project for my Computer Networks course. All of you are more than welcome to use it. Hope ya'll enjoy!
